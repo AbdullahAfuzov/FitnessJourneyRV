@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.headerStyle .logo {
+  height: 20vh;
+}
+
+.headerStyle .header-name{
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+  margin: 25px;
+}
+
+.tableStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableStyle table {
+  border-collapse: collapse;
+  margin: 25px;
+  font-size: 1em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.tableStyle thead tr {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tableStyle th, .tableStyle td {
+  padding: 8px 12px;
+}
+
+.tableStyle tbody tr {
+  border-bottom: 1px solid black;
+}
+
+.tableStyle tbody tr:last-of-type {
+  border-bottom: 5px solid black;
+}
+
+.tableStyle button {
+  margin: 10px;
+  color: white;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 10px;
+  background: black;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+.tableStyle button:active {
+  transform: scale(0.80);
+}
+
+.update {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  font-size: 14px;
+  padding: 3px;
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+.update:hover {
+  background: white;
+  color: black;
+}
+
+.formStyle {
+  margin-left: 50px;
+  text-align: center;
+}
+
+
+.formStyle label input {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+  }
+
+.formStyle input {
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.formStyle button {
+  margin: 10px;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  background: black;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+.formStyle button:active {
+  transform: scale(0.80);
+}
+
+.calcBM{
+  margin-right: 50px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.calcBM h3 {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 3px solid darkred;
+  border-bottom: 3px solid darkred;
+  font-size: 35px;
+}
+
+.formCalcBMImage .calcBM input {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+}
+
+.formCalcBMImage input {
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.formCalcBMImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.formCalcBMImage .imgForm {
+  height: 65vh;
+}
+
+.form2W3 {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+.form2W3 label {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+}
+
+.form2W3 input {
+  margin: 18px;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.form2W3 button {
+  margin: 8px;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  background: black;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+.form2W3 button:active {
+  transform: scale(0.80);
+}
+
+.form2W3 .formEx {
+  margin-left: 220px;
+  text-align: center;
+}
+
+.form2W3 .labelCALB {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  border-color: darkred;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.labelCALB h3 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.form2W3 .formFood {
+   margin-right: 220px;
+   text-align: center;
+}
+
+.form2W3 .labelCALF {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  border-color: darkred;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.labelCALF h3 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 18px;
+  border-top: 2px solid black;
+}
